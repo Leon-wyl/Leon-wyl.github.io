@@ -24,19 +24,18 @@ body {
 
 .box h1 {
 	font-family: "Times New Roman", Times, serif;
-	font-size: 40px;
-	font-weight: 100;
+	font-weight: bold;
 }
 
-.box h3 {
+.box h2 {
 	font-family: "Times New Roman", Times, serif;
-	font-size: 20px;
-	font-weight: 100;
+	font-weight: bold;
 	text-align: justify;
 }
 
 .box p {
 	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
 	text-align: justify;
 }
 
