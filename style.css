@@ -19,7 +19,7 @@ body {
 	padding-top: 10px;
 	width: 150px;
 	height: 150px;
-	border-radius: 100%;
+	border-radius: 50%;
 }
 
 .box h1 {
@@ -27,7 +27,7 @@ body {
 	font-weight: bold;
 }
 
-.box h2 {
+.box h3 {
 	font-family: "Times New Roman", Times, serif;
 	font-weight: bold;
 	text-align: justify;
