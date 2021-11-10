@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	/* Background picture*/
 	background: url(./src/night-view-of-guangzhou-956095614-02914cb9e8324c49be6421560ba5ffed.jpg) no-repeat;
+	background-size: cover;
 }
 
 .box {
