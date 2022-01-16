@@ -1,8 +1,7 @@
 body {
 	padding: 0;
 	margin: 0;
-	/* Background picture*/
-	background: url(./src/night-view-of-guangzhou-956095614-02914cb9e8324c49be6421560ba5ffed.jpg) no-repeat;
+	background: url(../pictures/night-view-of-guangzhou-956095614-02914cb9e8324c49be6421560ba5ffed.jpg) no-repeat;
 	background-size: cover;
 }
 
@@ -18,7 +17,7 @@ body {
 .box img {
 	width: 150px;
 	height: 150px;
-	border-radius: 100%;
+	border-radius: 50%;
 	margin-top: 50px;
 }
 
