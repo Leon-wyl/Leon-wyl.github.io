@@ -1,13 +1,17 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import { logo } from "@/public/assets";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import "boxicons";
+// import "boxicons";
 import "./Navbar.css";
 
 const Navbar = () => {
+  useEffect(() => {
+    //This code is executed in the browser
+    console.log(window.innerWidth);
+  }, []);
   return (
     <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
       <div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between">
@@ -93,7 +97,7 @@ const Navbar = () => {
           </a>
         </div>
         <div className="w-6 h-5 flex flex-col justify-center item-center mdl:hidden text-4xl cursor-pointer overflow-hidden">
-          <i className="icon bx bx-menu-alt-right"></i>
+          {/* <i className="icon bx bx-menu-alt-right"></i> */}
         </div>
       </div>
     </div>

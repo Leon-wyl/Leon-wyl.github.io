@@ -13,18 +13,23 @@ export default function Home() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1.5 }}
+          transition={{ duration: 0.5 }}
           className="hidden xl:inline-flex justify-center w-32 h-full fixed left-0 bottom-0"
         >
           <LeftSide />
         </motion.div>
-        <div className="h-[88vh] mx-auto p-4">
-          <Banner />
-        </div>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1.5 }}
+          transition={{ duration: 0.5 }}
+          className="h-[88vh] mx-auto p-4"
+        >
+          <Banner />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
           className="hidden xl:inline-flex justify-center w-32 h-full fixed right-0 bottom-0"
         >
           <RightSide />
