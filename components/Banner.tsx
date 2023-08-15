@@ -1,6 +1,7 @@
-"use client"
+"use client";
 import React from "react";
 import { motion } from "framer-motion";
+import { TypeAnimation } from "react-type-animation";
 
 const Banner = () => {
   return (
@@ -22,8 +23,18 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col"
       >
-        Leon Wu.{" "}
-        <span className="text-textDark mt-3 lgl:mt-4">I create websites</span>
+        <TypeAnimation
+          sequence={[
+            `Leon (Yilang) Wu.\nI create websites and _`,
+            5000,
+            "",
+          ]}
+          speed={50}
+          style={{ whiteSpace: "pre-line", fontSize: "3.75rem", lineHeight: "1" }}
+          repeat={Infinity}
+        />
+        {/* Leon Wu.{" "}
+        <span className="text-textDark mt-3 lgl:mt-4">I create websites</span> */}
       </motion.h1>
       <motion.p
         initial={{ y: -10, opacity: 0 }}
