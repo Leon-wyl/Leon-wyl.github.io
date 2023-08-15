@@ -15,7 +15,7 @@ module.exports = {
     extend: {
       fontFamily: {
         bodyFont: ["Montserrat", "san-serif"],
-        titleFont: ["Inter", "san-serif"],
+        titleFont: ["Montserrat", "san-serif"],
       },
       screens: {
         xs: "320px",
