@@ -25,12 +25,12 @@ const Banner = () => {
       >
         <TypeAnimation
           sequence={[
-            `Leon (Yilang) Wu.\nI create websites and _`,
+            `Leon (Yilang) Wu.\nI create websites and ...`,
             5000,
             "",
           ]}
           speed={50}
-          style={{ whiteSpace: "pre-line", fontSize: "3.75rem", lineHeight: "1" }}
+          style={{ whiteSpace: "pre-line", fontSize: "3.75rem", lineHeight: "5rem" }}
           repeat={Infinity}
         />
         {/* Leon Wu.{" "}
