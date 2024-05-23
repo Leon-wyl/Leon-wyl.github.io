@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import RightSide from "@/components/RightSide";
 import Banner from "@/components/Banner";
 import { motion } from "framer-motion";
+import About from "@/components/About";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
           className="h-[88vh] mx-auto p-4"
         >
           <Banner />
+          <About/>
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}

@@ -48,7 +48,7 @@ const Navbar = () => {
                 <span className="text-textGreen">01.</span> About
               </motion.li>
             </Link>
-            <Link
+            {/* <Link
               href="#experience"
               className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
             >
@@ -83,9 +83,9 @@ const Navbar = () => {
               >
                 <span className="text-textGreen">04.</span> Contact
               </motion.li>
-            </Link>
+            </Link> */}
           </ul>
-          <a href="/assets/Yilang (Leon) Wu (13).pdf" target="_blank">
+          <a href="/assets/Yilang (Leon) Wu.pdf" target="_blank">
             <motion.button
               initial={{ y: -10, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
